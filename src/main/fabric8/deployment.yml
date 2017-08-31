@@ -8,7 +8,7 @@ spec:
       containers: 
       - env:
          - name: JAVA_OPTIONS
-           value: -Xms32m -Xmx32m -Xss256k -XX:MaxDirectMemorySize=64m -Dspring.profiles.active=openshift -XX:MaxRAM=157286400
+           value: -Xms32m -Xmx32m -Xss256k -Dspring.profiles.active=openshift -XX:MaxRAM=67108864
          - name: AB_JOLOKIA_OFF
            value: "true"
          - name: AB_OFF
