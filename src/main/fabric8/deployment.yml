@@ -8,11 +8,7 @@ spec:
       containers: 
       - env:
          - name: JAVA_OPTIONS
-           value: -Xms64m -Xmx64m -Xss256k -XX:MaxDirectMemorySize=64m
-         - name: AB_JOLOKIA_OFF
-           value: "true"
-         - name: AB_OFF
-           value: "true"
+           value: -Xms32m -Xmx32m -Xss256k -XX:MaxDirectMemorySize=64m -XX:+UseCGroupLimits
         resources: 
           limits: 
             memory: "250Mi"
