@@ -13,6 +13,3 @@ spec:
            value: "true"
          - name: AB_OFF
            value: "true"
-        resources: 
-          limits: 
-            memory: "150Mi"
