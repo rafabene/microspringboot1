@@ -12,10 +12,3 @@ Invokes microspringboot2 (customers)
 
 Invokes microspringboot3 (orders)
 
-ToDo:
-
-Figure out why @HystrixCommand does not work without @RequstMapping
-
-Log Aggregation
-
-Config Map Configuration
